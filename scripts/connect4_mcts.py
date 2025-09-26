@@ -194,7 +194,7 @@ class MCTS:
         self.symbol = symbol
         self.t = t
 
-    def compute_move(self, node: "Node") -> Tuple[int, int]:
+    def compute_move(self, node: "Node") -> Tuple[int, int]: #Elegir movimiento con MCTS
         """Compute move using MCTS algorithm.
 
         Args:
